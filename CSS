@@ -1,0 +1,51 @@
+ /* HEADER */
+ .header-main {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 61px;
+    background-color: rgb(99, 147, 235);
+    margin: -9px;
+}
+
+.header-main h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.header-main ol {
+    display: flex;
+    margin: 22px;
+}
+
+.header-main ol li {
+padding: 0 10px;
+list-style: none; 
+}
+
+.header-main a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder ;
+}
+
+.logo-image {
+width: 45px;
+height: 45px;
+margin: 5px;
+}
+
+.logo {
+ margin: 0;
+ display:flex;
+flex-wrap: nowrap;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url('hero.jpg');
+    
+}
